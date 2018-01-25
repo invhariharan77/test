@@ -1,2 +1,3 @@
-echo hello > /tmp/hello
-date >> /tmp/hello
+echo hello > /tmp/hello.$$
+date >> /tmp/hello.$$
+
